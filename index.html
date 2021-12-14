@@ -13,15 +13,17 @@
   <h1>Formulário de Contato</h1>
   <form action="https://formsubmit.co/mlumouraweb@gmail.com" method="POST" class="form">
     <label for="name">Nome</label>
-    <input type="text" name="name" id="name" required />
+    <input type="text" name="name" id="name" placeholder="Digite seu nome" required />
     <label for="email">E-mail</label>
-    <input type="email" name="email" id="email" required />
+    <input type="email" name="email" id="email" placeholder="nome@exemplo.com" required />
     <label for="message">Mensagem</label>
-    <textarea name="message" id="message" required></textarea>
-    <input type="hidden" name="_captcha" value="false" />
-    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html" />
+    <textarea name="message" id="message" placeholder="Digite sua mensagem" required></textarea>
+    <input type="hidden" name="_captcha" value="true" />
+    <input type="hidden" name="_next" value="https://127.0.0.1:5500/obrigado.html" />
     <button type="submit">Enviar</button>
   </form>
 </body>
 
 </html>
+
+s
